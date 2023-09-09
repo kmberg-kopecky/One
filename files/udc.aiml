@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>Hello! Let's get started. Are you more interested in 
+    data flow and methods or do you prefer using your creativity?
+    
+    <button>
+        <text>Learning the flow of data sounds awesome! 
+        I like the idea of following methods.</text>
+        <postback>Cdataflow</postback>
+    </button>
+    
+    <button>
+        <text>I like to exercise my creativity!</text>
+        <postback>Ccreative</postback>
+    </button>
+    </template>
+  </category>
+  
+  <category>
+      <pattern>Cdataflow</pattern>
+      <template>Having this knowledge is very important. Do you prefer working in 
+      a team or leading others?
+      
+      <button>
+          <text>I prefer working in a team!</text>
+          <postback>Cteam </postback>
+      </button>
+      
+      <button>
+          <text>I prefer leading!</text>
+          <postback>Clead!</postback>
+      </button>
+      </template>
+  </category>
+  
+   <category>
+      <pattern>Ccreative</pattern>
+      <template>It's fun to be creative! Do you prefer visual creativity or programming 
+      creativity?
+      
+      <button>
+          <text>I'm all about the visual creativity!</text>
+          <postback>Cvisual</postback>
+      </button>
+      
+      <button>
+          <text>I love learning coding languages and thinking
+          logically with my creativity.</text>
+          <postback>Ccode</postback>
+      </button>
+      </template>
+      </category>
+      
+  
+  <category>
+      <pattern>Cvisual</pattern>
+      <template>Neato! You might be interested in a web design career.</template>
+  </category>
+  
+  <category>
+      <pattern>Ccode</pattern>
+      <template>Great! You might be interested in a software development position.</template>
+  </category>
+  
+  <category>
+      <pattern>Cteam</pattern>
+      <template>Sounds good! Do you plan in advance or go with the flow?
+  
+  
+  <button>
+      <text>Plan ahead!</text>
+      <postback>Cplan</postback>
+  </button>
+  
+  <button>
+      <text>Go with the flow!</text>
+      <postback>Cflow</postback>
+  </button>
+  </template>
+  </category>
+  
+  <category>
+      <pattern>Clead</pattern>
+      <template>Right on! You might be interested in a career in IT Project Management. </template>
+  </category>
+  
+  <category>
+      <pattern>Cplan</pattern>
+      <template>Sweet! You might look at exploring a career as a Network Administrator.</template>
+  </category>
+  
+  <category>
+      <pattern>cflow</pattern>
+      <template>Gnarly! You might look at taking a deeper look into a career in cybersecurity.</template>
+  </category>
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</aiml>
